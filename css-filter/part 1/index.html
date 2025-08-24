@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Filter Property</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h2>LEARN CSS</h2>
+    <h1>FILTER PROPERTY</h1>
+
+    <img id="image" src="image/Cute cats.jpg" alt="Sample Image">
+
+    <div class="buttons">
+      <button onclick="applyFilter('grayscale(0.75)')">filter: grayscale(0.75);</button>
+      <button onclick="applyFilter('brightness(1.25)')">filter: brightness(1.25);</button>
+      <button onclick="applyFilter('sepia(0.5)')">filter: sepia(0.5);</button>
+      <button onclick="applyFilter('hue-rotate(180deg)')">filter: hue-rotate(180deg);</button>
+      <button onclick="applyFilter('saturate(3)')">filter: saturate(3);</button>
+      <button onclick="applyFilter('blur(4px)')">filter: blur(4px);</button>
+      <button onclick="applyFilter('none')">Undo</button>
+    </div>
+
+    <footer>@ilmah</footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
